@@ -4,8 +4,8 @@ from sqlalchemy import create_engine #actual connection to database
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-SQLALCHEMY_DATABASE_URL = "sqlite:///./test.db"
-engine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={"check_same_thread": False})
+DATABASE_URL = "postgresql://ecommerce_db_cvkv_user:TqYLa1G5iKbLnHHcqoKDMl7cbnLQdgLj@dpg-d18mb26mcj7s73a5qc70-a/ecommerce_db_cvkv"
+engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(bind=engine, autoflush=False)
 
 Base = declarative_base() #creates a base class for defining models

@@ -1,0 +1,9 @@
+SECRET_KEY=71d34ea2109d991e672b0253e0da078e4fa47e8c1cd33749bfed48548c768446
+
+EMAIL_HOST=smtp.gmail.com
+EMAIL_PORT=587
+EMAIL_USER=highzik86@gmail.com
+EMAIL_PASS=rmxd qkny dtaw bpoc
+
+
+DATABASE_URL=postgresql://ecommerce_db_cvkv_user:TqYLa1G5iKbLnHHcqoKDMl7cbnLQdgLj@dpg-d18mb26mcj7s73a5qc70-a/ecommerce_db_cvkv
