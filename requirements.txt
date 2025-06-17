@@ -154,3 +154,11 @@ websocket-client==1.8.0
 websockets==15.0.1
 Werkzeug==2.3.7
 WTForms==3.0.1
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+python-dotenv
+passlib[bcrypt]
+python-jose[cryptography]
+
